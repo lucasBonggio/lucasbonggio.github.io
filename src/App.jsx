@@ -1,9 +1,7 @@
 import { useState } from 'react'
-import { Routes, Route } from 'react-router-dom';
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import NavBar from './components/layout/Nav'
+import HeroSection from './components/layout/Hero'
 
 
 function App() {
@@ -12,6 +10,7 @@ function App() {
   return (
     <> 
       <NavBar />
+      <HeroSection/>
 
     </>
   )

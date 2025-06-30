@@ -1,0 +1,79 @@
+.hero{
+    background-color: white;
+    color: black;
+    padding: 2rem 5rem;
+}
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.imageWrapper {
+    flex: 1;
+    min-width: 250px;
+}
+
+.infoWrapper{
+    flex: 2;
+    min-width: 300px;
+}
+
+.imageWrapper:hover .profileImage {
+    transform: scale(1.05) rotate(1deg);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+.buttonsWrapper{
+    display: flex;
+    gap: 1rem;
+}
+
+.btn,
+.btnContact {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    border: 1px solid black;
+    color: black;
+}
+
+.btnContact:hover, .btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.infoWrapper h2 {
+    font-size: 2.5rem;
+    padding: 0;
+}
+.infoWrapper h1, h2 {
+    margin: 0 0 0.25rem 0;
+}
+
+.infoWrapper h1{
+    font-size: 2rem;
+    padding: 0;
+}
+
+.infoWrapper h3{
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.profileImage{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}

@@ -27,7 +27,8 @@
     text-decoration: none;
     color: black;
     font-weight: 400;
-    transition: color 0.3s ease;
+    transition: transform 0.3s ease;
+    display: inline-block;
 }
 
 .mediaContainer {
@@ -39,6 +40,10 @@
     width: 24px;
     height: 24px;
     transition: transform 0.3s ease;
+}
+
+.navLink a:hover{
+    transform: scale(1.2);
 }
 
 .logoImg:hover {
