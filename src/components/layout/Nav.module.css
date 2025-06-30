@@ -1,0 +1,46 @@
+.header {
+    background-color: #ffffff;
+    color: black;
+    padding: 2rem 2rem;
+    width: 100%;
+}
+
+.nav {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navLinks {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    flex-grow: 1;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navLink a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    transition: color 0.3s ease;
+}
+
+.mediaContainer {
+    display: flex;
+    gap: 1rem;
+}
+
+.logoImg {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s ease;
+}
+
+.logoImg:hover {
+    transform: scale(1.2);
+}
