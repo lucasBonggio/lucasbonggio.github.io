@@ -1,7 +1,7 @@
 // src/components/sections/ProjectSection.jsx
 import React from "react";
-import ProjectCard from "./ProjectCard"; // Asegúrate de tener este componente
-import styles from "./ProyectSection.module.css"; // Nota: asegúrate que el archivo se llame bien (Proyect vs Project)
+import ProjectCard from "./ProjectCard.jsx"; 
+import styles from "./ProyectSection.module.css";
 import { motion } from 'framer-motion';
 
 const projects = [

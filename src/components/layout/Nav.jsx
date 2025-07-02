@@ -11,8 +11,8 @@ const Nav = () => {
         <nav className={styles.nav}>
             <ul className={styles.navLinks}>
                 <li className={styles.navLink}><ScrollLink to="about" smooth={true} duration={500} offset={-160}>Sobre mí</ScrollLink></li>
-                <li className={styles.navLink}><ScrollLink to="projects" smooth={true} duration={500}>Proyectos</ScrollLink></li>
-                <li className={styles.navLink}><ScrollLink to="contact" smooth={true} duration={500}>Contacto</ScrollLink></li>
+                <li className={styles.navLink}><ScrollLink to="projects" smooth={true} duration={500} offset={-160}>Proyectos</ScrollLink></li>
+                <li className={styles.navLink}><ScrollLink to="contact" smooth={true} duration={500} offset={-150} >Contacto</ScrollLink></li>
             </ul>
 
             <div className={styles.mediaContainer}>
