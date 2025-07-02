@@ -3,6 +3,10 @@
     color: black;
     padding: 2rem 2rem;
     width: 100%;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .nav {
@@ -23,6 +27,9 @@
     padding: 0;
 }
 
+.navLink{
+    cursor: pointer;
+}
 .navLink a {
     text-decoration: none;
     color: black;

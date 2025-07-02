@@ -2,7 +2,7 @@ import profilePic from '../../../public/example.jpg'
 import styles from './Hero.module.css';
 
 const HeroSection = () => (
-    <section className={styles.hero}>
+    <section className={styles.hero} id='about'>
         <div className={styles.container}>
             <div className={styles.imageWrapper}>
                 <img className={styles.profileImage} src={profilePic} alt="" />
