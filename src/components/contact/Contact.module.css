@@ -1,4 +1,5 @@
 .contact {
+    width: 100%;
     max-width: 600px;
     margin: 0 auto;
     text-align: center;
@@ -7,8 +8,8 @@
 }
 
 .contact h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
+    font-size: 2.25rem;
+    margin-bottom: 2rem;
     color: #222;
 }
 

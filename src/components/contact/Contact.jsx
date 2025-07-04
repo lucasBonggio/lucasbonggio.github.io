@@ -4,9 +4,7 @@ import styles from './Contact.module.css'
 const Contact = () => {
     return(
         <section className={styles.contact} id="contact">
-            <h2>Contacto</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto optio vero at quasi ratione excepturi illum ipsum porro oditimus ex molestiae?</p>
-
+            <h2>CONTACTO</h2>
             <form>
             <div className={styles.inputContainer}>
                 <label htmlFor="email">Email</label>

@@ -33,7 +33,7 @@ const ProjectSection = () => {
 return (
     <section id="projects" className={styles.section}>
     <div className={styles.container}>
-        <h2 className={styles.title}>Proyectos</h2>
+        <h2 className={styles.title}>PROYECTOS</h2>
         <motion.div
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}

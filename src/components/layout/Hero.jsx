@@ -1,5 +1,6 @@
 import profilePic from '../../../public/example.jpg'
 import styles from './Hero.module.css';
+import { Link as ScrollLink } from 'react-scroll';
 
 const HeroSection = () => (
     <section className={styles.hero} id='about'>
@@ -14,8 +15,14 @@ const HeroSection = () => (
                 </h3>
                 <div className={styles.buttonsWrapper}>
                     <a className={styles.btn} href="">Descargar mi CV</a>
-                    <a className={styles.btnContact} href="">Contáctame</a>
-                </div>
+                    <ScrollLink 
+                    to="contact"     // id de la sección destino
+                    smooth={true}    // activa el scroll suave
+                    duration={500}   // duración del efecto en ms
+                    className={styles.btnContact}
+                    >
+                    Contáctame
+                    </ScrollLink>                </div>
             </div>
         </div>
     </section>

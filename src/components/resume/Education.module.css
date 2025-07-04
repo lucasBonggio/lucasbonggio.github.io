@@ -1,0 +1,25 @@
+.educationSection{
+    margin: 0 auto;
+    text-align: center;
+    padding: 2rem 5rem;
+}
+.educationSection h2{
+    font-size: 2.25rem;
+    margin-bottom: 2rem;
+}
+
+.itemSection h2, h4, p{
+    margin: 1rem;
+}
+
+.itemSection{
+    margin-bottom: 2rem;
+}
+
+.divider {
+    border: none;
+    height: 2px;
+    background-color: #ddd;
+    margin: 2rem auto;
+    width: 50%;
+}
