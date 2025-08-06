@@ -42,9 +42,9 @@
     text-decoration: none;
     border-radius: 8px;
     transition: all 0.3s ease;
-    text-transform: uppercase;
     border: 1px solid black;
     color: black;
+    cursor: pointer;
 }
 
 .btnContact:hover, .btn:hover {

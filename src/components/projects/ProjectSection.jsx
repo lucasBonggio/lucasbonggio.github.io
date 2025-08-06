@@ -7,44 +7,40 @@ import { motion } from 'framer-motion';
 const projects = [
     {
         title: 'Portafolio',
-        description: 'Proyecto personal desarrollado con React, Vite y CSS Modules. Presenta mi perfil, proyectos, experiencia laboral y formulario de contacto.',
+        description: 'Proyecto personal que presenta mi perfil, proyectos destacados, experiencia laboral y un formulario de contacto. Diseñado con un estilo minimalista y profesional, este portafolio ofrece una experiencia clara y accesible. ',
         tags: ['React', 'Vite', 'JavaScript', 'CSS Modules'],
-        imageUrl: '/tp1.png', 
-        githubUrl: 'https://github.com/lucasBonggio/portfolio-personal '
+        imageUrls: ['/portafolio.jpg'], 
+        githubUrl: 'https://github.com/lucasBonggio/portfolio-personal'
     },
     {
-        title: 'Ejemplo 2',
-        description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse libero cumque nam facere omnis ratione excepturi aspernatur animi. Quod animi laboriosam repellendus eos illum. Voluptatum laborum aperiam quam itaque sed?",
-        tags: ['Java', 'Kotlin', 'MySQL'],
-        imageUrl: '/tp1.png', 
-        githubUrl: 'https://github.com/lucasBonggio/portfolio-personal '
-    },
-    {
-        title: 'Ejemplo 3',
-        description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus velit natus porro nemo. Eveniet deleniti optio itaque voluptatem, et iste magnam, beatae recusandae tenetur labore hic tempore non quidem facere.",
-        tags: ['React', 'Kotlin', 'Java', 'APIs'],
-        imageUrl: '/tp1.png', 
-        githubUrl: 'https://github.com/lucasBonggio/portfolio-personal '
+        title: 'Gestión de Estudio musical',
+        description: "Desarrollo de una aplicación web Full Stack para gestionar un estudio musical. Permite administrar bandas, salas, reservas y servicios mediante operaciones CRUD, búsquedas dinámicas y modales interactivos. Integra una base de datos en la nube para facilitar la escalabilidad y gestión remota de datos, con una interfaz intuitiva y validaciones robustas para una experiencia fluida.",
+        tags: ['Java', 'HTML', 'CSS', 'JavaScript', 'MySQL', 'Thymeleaf'],
+        imageUrls: [
+            '/gestion-principal.jpg',
+            '/gestion-crearSala.jpg',
+            '/gestion-salas.jpg'
+        ],
+        githubUrl: 'https://github.com/lucasBonggio/gestion-estudio.git'
     }
-
 ];
 
 const ProjectSection = () => {
 return (
-    <section id="projects" className={styles.section}>
-    <div className={styles.container}>
-        <h2 className={styles.title}>PROYECTOS</h2>
-        <motion.div
-        initial={{ opacity: 0, y: 50 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5, staggerChildren: 0.2 }}
-        className={styles.grid}
-        >
-        {projects.map((project, index) => (
-            <ProjectCard key={index} {...project} />
-        ))}
-        </motion.div>
-    </div>
+    <section id="projects" className={styles.projectSection}>
+        <div className={styles.container}>
+            <h2 className={styles.title}>PROYECTOS</h2>
+            <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, staggerChildren: 0.2 }}
+            className={styles.grid}
+            >
+            {projects.map((project, index) => (
+                <ProjectCard key={index} {...project} />
+            ))}
+            </motion.div>
+        </div>
     </section>
 );
 };

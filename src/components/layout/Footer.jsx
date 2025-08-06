@@ -9,7 +9,7 @@ const FooterSection = () => {
             © {new Date().getFullYear()} Lucas Bonggio | Portafolio personal desarrollado con React
             </p>
             <div className={styles.social}>
-            <a href="https://github.com/lucasBonggio " target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/lucasBonggio" target="_blank" rel="noopener noreferrer">
                 GitHub
             </a>
             </div>
