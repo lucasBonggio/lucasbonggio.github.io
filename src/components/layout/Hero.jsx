@@ -13,7 +13,7 @@ const HeroSection = () => (
                 <h1>Desarrollador Backend.</h1>
                 <h3>Apasionado por crear soluciones eficientes y escalables, con foco en el diseño limpio y la lógica detrás de cada sistema. Siempre en evolución, buscando crecer con cada línea de código.</h3>
                 <div className={styles.buttonsWrapper}>
-                    <a className={styles.btn} href="/#" download>DESCARGAR MI CV</a>
+                    <a className={styles.btn} href="/lucas-bonggio-CV.pdf" download>DESCARGAR MI CV</a>
                     <ScrollLink 
                     to="contact"
                     smooth={true}

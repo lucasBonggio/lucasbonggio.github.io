@@ -22,6 +22,15 @@ const projects = [
             '/gestion-salas.jpg'
         ],
         githubUrl: 'https://github.com/lucasBonggio/gestion-estudio.git'
+    },
+        {
+        title: 'API RESTful - Ecommerce',
+        description: "Desarrollo de una API RESTful para gestionar una tiendo tipo ecommerce. Permite administrar usuario, productos, categorias, direcciones de clientes , ordenes, favoritos y reseñas mediante operaciones CRUD. Integra una base de datos en MySQL e implementé métodos de seguridad como JWT y Paginación para una mejor performance en determiandas búsquedas. ",
+        tags: ['Java', 'Spring boot', 'MySQL'],
+        imageUrls: [
+            '/api.jpg'
+        ],
+        githubUrl: 'https://github.com/lucasBonggio/gestion-estudio.git'
     }
 ];
 
